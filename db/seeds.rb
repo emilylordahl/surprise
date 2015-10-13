@@ -1,5 +1,3 @@
-# CREATE TABLE koalas (id SERIAL PRIMARY KEY, name VARCHAR(255), shoutout VARCHAR(255));
-
 require "./models/koala"
 
 Koala.destroy_all
