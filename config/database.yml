@@ -1,0 +1,11 @@
+development:
+  database: koala_surprise
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+production:
+  database: koala_surprise_production
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
